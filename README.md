@@ -1,24 +1,29 @@
-# README
+# A Task List / To Do List Template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a rails template with the following
 
-Things you may want to cover:
+- Bootstrapped CSS
+- Rspec for testing
+- ViewComponent
+- Stimulus Reflex <3
+- Seed file using Faker
+- List Model with Tasks Model
 
-* Ruby version
+## To Get Started
 
-* System dependencies
+- Rails db:create
+- Rails db:migrate
+- Rails db:seed
+- Rails dev:cache
 
-* Configuration
+## Required
 
-* Database creation
+- Ruby version: 2.7.2
 
-* Database initialization
+- Rails version: 6.1
 
-* How to run the test suite
+- System dependencies: yarn, redis-server, webpacker
 
-* Services (job queues, cache servers, search engines, etc.)
+### Sample App
 
-* Deployment instructions
-
-* ...
+[Task List](http://nmtasker.herokuapp.com)
